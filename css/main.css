@@ -1,0 +1,189 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+/*
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+header{
+    background: #ff8ba7;
+    padding: 15px;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 300;
+}
+header .fas{
+    color: white;
+    font-size: 16px;
+}
+header .logo-area{
+    color: white;
+    display: inline-block;
+    width: 20%;
+}
+header .logo-area a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+header .menu{
+    display: inline-block;
+    width: 20%;
+    /* background: white; */
+    margin-left: 3px;
+    border-right: 1PX solid rgba(255, 255, 255, .3);
+    text-align: right;
+    padding-right: 100px;
+}
+header .menu ul li{
+    display: inline-block;
+    padding-left: 20px;
+}
+header .menu a ul li{
+    margin-right: 20px;
+}
+header .icon-links{
+    display: inline-block;
+    /* background: white; */
+    margin-left: 3px;
+    width: 20%;
+    padding-left: 20px;
+}
+header .icon-links ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+header .icon-links .quick-options{
+    display: inline-block;
+    /* background: white; */
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 3px;
+    border-right: 1PX solid rgba(255, 255, 255, .3);
+    padding-right: 20px;
+}
+header .icon-links .privacy{
+    padding-left: 20px;
+    display: inline-block;
+    /* color: white; */
+}
+header .search-area{
+    display: inline-block;
+    /* background: white; */
+    margin-left: 3px;
+    width: 37%;
+    text-align: right;
+    /* color: white; */
+}
+header .search-area ul li{
+    display: inline-block;
+    padding-right: 10px;
+}
+
+/*
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+#top-area{
+    padding: 200px 15px 90px 15px;
+        background: url(https://images.unsplash.com/photo-1482784160316-6eb046863ece?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80) no-repeat center center; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+.grid {
+    display: table;
+    border-spacing: 5px
+  }
+  .row {
+    display: table-row
+  }
+  .cell {
+    width: 110px;
+    height: 110px;
+    background: grey;
+    display: table-cell;
+  }
+  .row div:last-child {
+    background: red
+  }
+#top-area .profile-info .user-image{
+    padding: 10px;
+    display: inline-block;
+}
+#top-area .profile-info .user-image img{
+    border-radius: 50%;
+}
+#top-area .profile-info .user-details{
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 20px;
+}
+#top-area .profile-info .user-details h3{
+    color: white;
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+#top-area .profile-info .user-details a{
+    display: inline-block;
+    margin-left: -4px;
+    margin-right: 5%;
+    width: 45%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    padding: 10px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, .3);
+    transition: background .4s ease-in-out;
+}
+#top-area .profile-info .user-details a:hover{
+    background: #ffc6c7;
+}
+
+#content-area{
+    background: #faeee7;
+    overflow: auto;
+    padding: 50px 0;
+}
+#comtent-are .widget-box{
+    border-radius: 3px;
+    background: white;
+    -webkit-box-shadow: 4px 6px 5px -2px rgba(128,126,128,1);
+    -moz-box-shadow: 4px 6px 5px -2px rgba(128,126,128,1);
+    box-shadow: 4px 6px 5px -2px rgba(128,126,128,1);
+}
+/* #content-area .side-column{
+    float: left;
+    width: 35%;
+    margin:0 2.5%;
+}
+#content-area .side-column .widget-box{
+    float: left;
+    width: 35%;
+    margin:0 2.5%;
+}
+#content-area .main-area{
+    float: left;
+    width: 55%;
+    margin:0 2.5%;
+}
+ */
+
+
+
